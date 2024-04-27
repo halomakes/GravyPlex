@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GravyPlex": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
