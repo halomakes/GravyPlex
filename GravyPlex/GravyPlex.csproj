@@ -5,6 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <UserSecretsId>c6c95c0e-64be-427c-a7e5-73b719644afb</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="..\.dockerignore">
@@ -17,5 +18,9 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="8.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Plex.Webhooks\Plex.Webhooks\Plex.Webhooks.csproj" />
   </ItemGroup>
 </Project>
