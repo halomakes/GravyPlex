@@ -3,5 +3,5 @@ using Plex.Webhooks;
 
 namespace GravyPlex;
 
-[JsonSerializable(typeof(PlexEventPayload))]
-internal partial class AppSerializationContext : JsonSerializerContext;
+    [JsonSerializable(typeof(PlexEventPayload))]
+    internal partial class AppSerializationContext : JsonSerializerContext;

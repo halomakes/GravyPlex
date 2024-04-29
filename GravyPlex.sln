@@ -1,8 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GravyPlex", "GravyPlex\GravyPlex.csproj", "{EE75FB89-2757-424D-A77B-B0CD6C6EBB57}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plex.Webhooks", "..\Plex.Webhooks\Plex.Webhooks\Plex.Webhooks.csproj", "{6CAA20E6-D78F-48AF-BB0E-8C83BD914521}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GravyPlex", "GravyPlex\GravyPlex.csproj", "{EE75FB89-2757-424D-A77B-B0CD6C6EBB57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +15,11 @@ Global
 		{EE75FB89-2757-424D-A77B-B0CD6C6EBB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE75FB89-2757-424D-A77B-B0CD6C6EBB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE75FB89-2757-424D-A77B-B0CD6C6EBB57}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6CAA20E6-D78F-48AF-BB0E-8C83BD914521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CAA20E6-D78F-48AF-BB0E-8C83BD914521}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CAA20E6-D78F-48AF-BB0E-8C83BD914521}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CAA20E6-D78F-48AF-BB0E-8C83BD914521}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4E839CD-F026-471A-A844-CD5FE5D10444}
 	EndGlobalSection
 EndGlobal
